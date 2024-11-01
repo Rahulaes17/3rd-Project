@@ -97,3 +97,63 @@ html, body{
     width: 160px;
     background-color: black;
 }
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 90px;
+}
+
+#elem{
+    width: 50%;
+}
+
+.elem-img{
+    height: 700px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgb(96, 168, 204);
+    background-size: cover;
+    background-position: center;
+}
+
+#img1{
+    background-image: url(https://pagedone.io/asset/uploads/1707480017.png);
+}
+
+#img2{
+    background-image: url(https://cdn.dribbble.com/userupload/4088526/file/original-aaae68cf4439b097e5aaafb2fcb97908.png?resize=1200x900);
+}
+
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+#bottom i{
+    padding: 14px 30px ;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: 800;
+}
+
+#bottom i:hover{
+    background-color: black;
+    color: white;
+}
+
+#bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#bottom h4{
+    font-size: 20px;
+    color: rgb(87, 87, 87);
+}
